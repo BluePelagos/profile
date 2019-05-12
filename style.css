@@ -9,14 +9,14 @@ h1 {
 
 h2 {
   font-family: 'arial';
-  color: #754f4f;
+  color: #5f77c3;
   font-size: 30px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size:20px;
-  color: #68bb68;
+  /* font-size: 18px; */
+  color: black;
 }
 
 a {
@@ -24,15 +24,15 @@ a {
 }
 
 .btn-blue {
-  background-color: #3268b9;
-  color: #e8e1e1;
+  background-color: #3a6ebb;
+  color: white;
   padding: 15px 40px;
-  border-radius: 20pc;
+  border-radius: 10px;
   text-decoration: none;
 }
 
 .btn-blue:hover {
-  background-color: red;
+  background-color: #619fd0;
 }
 
 .card_white {
@@ -49,13 +49,14 @@ a {
 }
 
 .container {
-    width: 700px;
+    width: 960px;
     margin: 40px auto;
 }
 
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  /* text-align: center; */
 }
 
 .list-inline li {
@@ -64,7 +65,7 @@ a {
 }
 
 .list-inline i {
-    font-size: 50px;
+    font-size: 40px;
     color: #966e6e;
 }
 
@@ -83,7 +84,7 @@ a {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 00px;
   }
 }
 
